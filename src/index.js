@@ -86,7 +86,7 @@ function Menu() {
           </ul>
         </>
       ) : (
-        <p>We're still working on our menu. Please come back later</p>
+        <p>Site under construction. Please come back later</p>
       )}
     </main>
   );
@@ -117,7 +117,7 @@ function Footer() {
         <Order closeHour={closeHour} openHour={openHour} />
       ) : (
         <p>
-          We're happy to welcome you between {openHour}:00 and {closeHour}:00
+          We're open from {openHour}:00 to {closeHour}:00
         </p>
       )}
     </footer>
